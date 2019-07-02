@@ -8,6 +8,7 @@ function App() {
 		<Fragment>
 			<Message name={ "Yoast devs" }/>
 			<Paragraph text={ "This is a presentation about git bisect." }/>
+			<Paragraph text={ "Git bisect can come in very handy." }/>
 		</Fragment>
 
 	);
