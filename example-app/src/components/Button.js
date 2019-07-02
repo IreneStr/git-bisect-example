@@ -11,7 +11,7 @@ const StyledButton = styled.button`
 
 class Button extends React.Component {
 	render() {
-		return <StyledButton>{this.props.children}</StyledButton>;
+		return <StyledButton>{ this.props.children }</StyledButton>;
 	}
 }
 export default Button;
