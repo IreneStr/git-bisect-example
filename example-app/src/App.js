@@ -7,12 +7,13 @@ import Button from "./components/Button";
 function App() {
 	return (
 		<Fragment>
-			<Message name={ "Yoast devs" }/>
+			<Message name={"Yoast devs" }/>
 			<Paragraph text={ "This is a presentation about git bisect." }/>
 			<Paragraph text={ "Git bisect can come in very handy." }/>
 			<Paragraph text={ "How many steps will it take to find the faulty commit?" }/>
 			<Button>Click me!</Button>
 			<Paragraph text={ "That's a fake button ^" }/>
+			<Paragraph text={ "It doesn't do anything :)" }/>
 		</Fragment>
 
 	);
