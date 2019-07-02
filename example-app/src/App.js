@@ -12,7 +12,7 @@ function App() {
 			<Paragraph text={ "Git bisect can come in very handy." }/>
 			<Paragraph text={ "How many steps will it take to find the faulty commit?" }/>
 			<Button>Click me!</Button>
-
+			<Paragraph text={ "That's a fake button ^" }/>
 		</Fragment>
 
 	);
