@@ -8,7 +8,7 @@ const StyledMessage = styled.h1`
 
 class Message extends React.Component {
 	render() {
-		return <StyledMessage>Hello, { this.props.name }!</StyledMessage>;
+		return <StyledMessage>Hello, { this.props.groupName }!</StyledMessage>;
 	}
 }
 export default Message;
