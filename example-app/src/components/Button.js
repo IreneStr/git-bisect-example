@@ -14,4 +14,4 @@ class Button extends React.Component {
 		return <StyledButton>{this.props.children}</StyledButton>;
 	}
 }
-export default StyledButton;
+export default Button;
